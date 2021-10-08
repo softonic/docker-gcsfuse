@@ -1,6 +1,6 @@
 FROM debian:bullseye-slim
 
-RUN apt-get update -qqq && apt-get install -qqq -y curl fuse inotify-tools rsync
+RUN apt-get update -qqq && apt-get install -qqq -y curl fuse
 
 ENV GCS_FUSE_VERSION=0.36.0
 
